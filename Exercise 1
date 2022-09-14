@@ -2,12 +2,12 @@
 #include <limits.h>
 
 int minNumber(int *vec, int d){
-    int menor = INT_MAX;
+    int min = INT_MAX;
         for (int i = 0; i < d; i++) {     
-         if(vec[i] < menor) 
-             menor = vec[i];
+         if(vec[i] < min) 
+             min = vec[i];
         } 
-        return menor;
+        return min;
 }
 
 int main()
@@ -16,7 +16,7 @@ int main()
     minNumber(vec,4);
     int result = minNumber(vec,4);
     
-    printf("O menor valor eh %i", result);
+    printf("The lowest value is %i", result);
     
     return 0;
 }
