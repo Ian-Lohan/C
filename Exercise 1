@@ -1,3 +1,4 @@
+//create a function that creates a vector and prints the lowest number in it
 #include <stdio.h>
 #include <limits.h>
 
