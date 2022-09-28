@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h> /*usado quando alocando memoria*/
+#include <string.h>
+
+/*tipo_da_func nome_da_func(tipo_parametro nome_variavel_parametro) {
+    
+    codigo
+    
+    return tipo_da_func;
+};*/
+
+int minmax(int *x, int *y, int *vec, int d){ /*recebe os valores em forma de ponteiro*/
+    
+    /*codigo*/
+    
+}
+
+struct aluno {
+    int matricula[12];
+    char nome[100];
+    char data_nasc[10];
+    int cpf;
+    char endereco[100];
+    char email[100];
+    int telefone[11];
+};
+
+int main()
+{
+    /*tipo_ptr * nome_ptr = &variavel_que_ele_aponta; (dá a carga ao ponteiro) ou = NULL; (inicializa vazio)*/
+    
+    int a = 1;
+    int * ptr;
+    ptr = &a;
+    * ptr = 8;
+    
+    printf("%d",a);
+    
+    int vec[50];
+    
+    vec[0]; /*ponteiro fixo, não pode ser usado em operações dinamicas*/
+    
+    struct aluno aluno1;
+    aluno1.matricula == 59233451;
+    strcpy(aluno1.nome,"Lucas");
+    
+    int vetor = {7,2,3,9};
+    int x, y;
+    int c = 5, d = 7;
+    somar(5,7);
+    minmax(&x,&y,vetor,4); /*chama a função, indica os endereços que recebem min e max, o vetor e sua dimensão*/
+    
+    /*alocação dinamica: (utiliza a biblioteca <stdlib.h>)
+    calloc - aloca uma quantidade de memoria para um vetor de num objetors de tamanho size;
+    realloc - modifica o tamanho da memoria
+    malloc - toma o numero de bytes que queremos alocar e retorna o ponteiro void do primeiro dado alocado
+    free() - libera a memoria alocada
+    sizeof - verifica o tamanho da variavel
+    */
+    return 0;
+}
