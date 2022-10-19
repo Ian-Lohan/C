@@ -1,0 +1,15 @@
+/* 
+Lists are a group of objects that share characteristics that are grouped together in a variable, they can be linked or not, ordered or not
+Linked Lists can be singly linked (connect to next item), doubly linked (connect to previous and next item) and circular linked (first and final item are connected)
+
+Stack - A list of objects where the objects are removed and added from the top, last-in first-out (LIFO)
+Stacks are dynamic structures since their size is constantly changing, stacks need a pointer to the last item in the stack
+push(s, i) - adds item i to top of the stack s
+pop(s) - remove top item from stack s
+
+Queue - A list of objects where objects come from the side, first-in first-out (FIFO)
+Queues are also dynamic structures due to constantly changing size, queues need two pointers, one for the first and one for the end of the queue
+insert(q,x) - insert item x in queue q
+x = remove(q) - removes item x from the queue q
+empty(q) = returns whether the queue is empty or not
+*/
