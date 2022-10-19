@@ -1,0 +1,28 @@
+/*
+Sorting Algorithms are used to arrange lists of items in a specified order.
+Bubble Sort 
+Insertion Sort
+Selection Sort
+Quick Sort
+Merge Sort
+
+Bubble Sort is used to exam the list item by item and replacing the first value with the smallest value, repeating until fully sorted.
+May be inefficient in large lists due to constant looping needed.
+- Iteration
+- Comparison
+- Exchange Positions
+
+Insertion Sort moves the minimum value at the beggining of the list, one at a time.
+Not suitable for large lists.
+
+Selection Sort creates an ordered (empty at first) and unordered array (the list), then checks for the lowest item in the unordered array and puts it in the ordered one.
+With each iteration selecting the now lowest item in the unordered array until it's empty.
+Simple, and uses lower amounts of memory.
+
+
+Quick Sort
+(continue)
+
+Merge Sort
+(continue)
+*/
