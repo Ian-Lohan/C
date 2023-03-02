@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+//global variables
+
+int sum(int *a, int *b)
+{
+    printf("a before: %i\n", *a);
+    (*a)+=1;
+    printf("a after: %i\n", *a);
+    return (*a)+(*b);
+}
+
+int main()
+{
+    int val1, val2; //local variables
+    
+    scanf("%i", &val1);
+    scanf("%i", &val2);
+    printf("Val1: %i -- Val2: %i\n", val1, val2);
+    printf("Total: %i\n", sum(&val1, &val2));
+    printf("Val1: %i", val1);
+}
