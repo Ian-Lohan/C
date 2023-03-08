@@ -1,5 +1,5 @@
 #include <stdio.h>
-//program to get the average and standard deviation of a array
+//program to get the average and standard deviation of an array
 
 int receiveValues (int *v) {
     int i = 0; //variable to navigate the array
