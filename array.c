@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define SIZ 5
+#define SIZ 5 //define is used to define universal alternatives to variables in the code
 
 int main() {
     int array[SIZ], i;
@@ -10,7 +10,7 @@ int main() {
     }
 
     for (i=0;i<SIZ;i=i+2) {
-        printf("Index %i: %i\n", i, array[i]);
+        printf("Index %i: %i\n", i, array[i]); //prints only even indexes
     }
 
     return 0;
